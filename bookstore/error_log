@@ -1,0 +1,95 @@
+[04-Apr-2023 06:57:46 America/New_York] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/apptieib/public_html/books/bookstore/index.php on line 58
+[04-Apr-2023 06:57:46 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/apptieib/public_html/books/bookstore/index.php on line 58
+[04-Apr-2023 06:59:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/index.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/index.php on line 87
+[04-Apr-2023 07:02:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/index.php on line 83
+[04-Apr-2023 07:03:14 America/New_York] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/apptieib/public_html/books/bookstore/Register.php on line 72
+[04-Apr-2023 07:03:14 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/apptieib/public_html/books/bookstore/Register.php on line 72
+[04-Apr-2023 07:08:27 America/New_York] PHP Notice:  Undefined variable: conn in /home/apptieib/public_html/books/bookstore/Register.php on line 70
+[04-Apr-2023 07:08:27 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/apptieib/public_html/books/bookstore/Register.php on line 70
+[04-Apr-2023 07:08:27 America/New_York] PHP Notice:  Undefined variable: conn in /home/apptieib/public_html/books/bookstore/Register.php on line 77
+[04-Apr-2023 07:08:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/apptieib/public_html/books/bookstore/Register.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/Register.php on line 77
+[04-Apr-2023 07:08:30 America/New_York] PHP Notice:  Undefined variable: conn in /home/apptieib/public_html/books/bookstore/Register.php on line 70
+[04-Apr-2023 07:08:30 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/apptieib/public_html/books/bookstore/Register.php on line 70
+[04-Apr-2023 07:08:30 America/New_York] PHP Notice:  Undefined variable: conn in /home/apptieib/public_html/books/bookstore/Register.php on line 77
+[04-Apr-2023 07:08:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/apptieib/public_html/books/bookstore/Register.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/Register.php on line 77
+[04-Apr-2023 07:08:35 America/New_York] PHP Notice:  Undefined variable: conn in /home/apptieib/public_html/books/bookstore/Register.php on line 70
+[04-Apr-2023 07:08:35 America/New_York] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/apptieib/public_html/books/bookstore/Register.php on line 70
+[04-Apr-2023 07:08:35 America/New_York] PHP Notice:  Undefined variable: conn in /home/apptieib/public_html/books/bookstore/Register.php on line 77
+[04-Apr-2023 07:08:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/apptieib/public_html/books/bookstore/Register.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/Register.php on line 77
+[04-Apr-2023 07:09:56 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/Register.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/Register.php on line 81
+[04-Apr-2023 07:10:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/Register.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/Register.php on line 81
+[04-Apr-2023 12:41:06 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 29
+[04-Apr-2023 12:41:06 America/New_York] PHP Notice:  Undefined variable: Quantity in /home/apptieib/public_html/books/bookstore/index.php on line 29
+[04-Apr-2023 12:41:06 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 30
+[04-Apr-2023 12:41:06 America/New_York] PHP Notice:  Undefined variable: Quantity in /home/apptieib/public_html/books/bookstore/index.php on line 30
+[04-Apr-2023 12:41:29 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 29
+[04-Apr-2023 12:41:29 America/New_York] PHP Notice:  Undefined variable: Quantity in /home/apptieib/public_html/books/bookstore/index.php on line 29
+[04-Apr-2023 12:41:29 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 30
+[04-Apr-2023 12:41:29 America/New_York] PHP Notice:  Undefined variable: Quantity in /home/apptieib/public_html/books/bookstore/index.php on line 30
+[04-Apr-2023 12:43:03 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 28
+[04-Apr-2023 12:43:03 America/New_York] PHP Notice:  Undefined variable: Quantity in /home/apptieib/public_html/books/bookstore/index.php on line 28
+[04-Apr-2023 12:43:26 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 28
+[04-Apr-2023 12:43:26 America/New_York] PHP Notice:  Undefined variable: Quantity in /home/apptieib/public_html/books/bookstore/index.php on line 28
+[04-Apr-2023 12:48:54 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 28
+[04-Apr-2023 12:54:32 America/New_York] PHP Notice:  Undefined variable: Price in /home/apptieib/public_html/books/bookstore/index.php on line 28
+[04-Apr-2023 12:54:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/index.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/index.php on line 106
+[04-Apr-2023 12:55:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/index.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/index.php on line 106
+[04-Apr-2023 12:56:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/index.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/index.php on line 106
+[04-Apr-2023 12:59:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 17
+[04-Apr-2023 13:01:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 17
+[04-Apr-2023 13:02:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 17
+[04-Apr-2023 13:05:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 17
+[04-Apr-2023 13:06:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 17
+[04-Apr-2023 13:07:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 26
+[04-Apr-2023 13:14:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/apptieib/public_html/books/bookstore/checkout.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/apptieib/public_html/books/bookstore/checkout.php on line 26
