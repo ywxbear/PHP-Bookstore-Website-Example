@@ -22,7 +22,7 @@
 <?php
 if(isset($_GET['errcode'])){
     if($_GET['errcode']==1){
-        echo '<span style="color: red;">Invalid username or password.</span>';
+        echo '<span style="color: red;">Invalid username or password. Please try again.</span>';
     }elseif($_GET['errcode']==2){
         echo '<span style="color: red;">Please login.</span>';
     }
