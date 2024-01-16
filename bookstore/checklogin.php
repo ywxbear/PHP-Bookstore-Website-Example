@@ -6,7 +6,7 @@ if(isset($_POST['username'])&&isset($_POST['pwd'])){
 
     include "connectDB.php";
      
-     $sql="SELECT * FROM Users WHERE UserName=:username AND Password = :pwd;";
+     $sql="SELECT * FROM users WHERE UserName=:username AND Password = :pwd;";
      $stmt = $pdo->prepare($sql);
     $stmt->execute(array(
         ':username' => $username,
