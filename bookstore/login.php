@@ -20,14 +20,17 @@
 </div>
 <blockquote>
 <?php
-if(isset($_GET['errcode'])){
-    if($_GET['errcode']==1){
-        echo '<span style="color: red;">Invalid username or password.</span>';
-    }elseif($_GET['errcode']==2){
-        echo '<span style="color: red;">Please login.</span>';
-    }
-}
+if (isset($_GET['errcode'])) {
+$errorMessages = [
+    1 => 'Invalid username or password. Please try again.',
+    2 => 'Please login.'
+];
 
+$errcode = intval($_GET['errcode']);
+if (array_key_exists($errcode, $errorMessages)) {
+    echo '<span style="color: red;">' . htmlspecialchars($errorMessages[$errcode]) . '</span>';
+}
+}
 ?>
 </body>
 </html>
